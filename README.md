@@ -8,9 +8,14 @@ In my case, this black wire is (+) and red wires are (-). please consider the im
 
 connection:
 MAX_CS → ESP32 GPIO5
+
 MAX_MOSI → ESP32 GPIO23
+
 MAX_MISO → ESP32 GPIO19
+
 MAX_SCK → ESP32 GPIO18
+
 VIN → 3.3V (Do NOT connect to 5V)
+
 GND → GND
 
