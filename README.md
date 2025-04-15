@@ -5,7 +5,7 @@
 I am using 3 wire connection for PT100.
 In my case, this black wire is (+) and red wires are (-). please consider the image given below.
 
-
+![image](https://github.com/user-attachments/assets/d8b04e5a-61e3-4c7f-9b17-a2a9129e8038)
 connection:
 
 MAX_CS → ESP32 GPIO5
@@ -26,4 +26,5 @@ GND → GND
 
 two_pt100_3.ino is the code for dual MAX3185 with pt100.
 you only need to add extra connection for chip select (MAX_CS) for another MAX3185. All other connections remain common between two MAX3185.
-![image](https://github.com/user-attachments/assets/d8b04e5a-61e3-4c7f-9b17-a2a9129e8038)
+
+![Screenshot (83)](https://github.com/user-attachments/assets/87b620aa-7fc4-4aa3-826d-bffd5f502132)
