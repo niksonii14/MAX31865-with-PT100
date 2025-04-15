@@ -20,3 +20,6 @@ VIN → 3.3V (Do NOT connect to 5V)
 
 GND → GND
 
+
+two_pt100_3.ino is the code for dual MAX3185 with pt100.
+you only need to add extra connection for chip select (MAX_CS) for another MAX3185. All other connections remain common between two MAX3185.
